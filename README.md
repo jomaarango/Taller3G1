@@ -19,7 +19,9 @@ MAYO 03 DE 2019
 
 
 **Instale el cliente de oracle para linux**
+Proceso de instalacion del cliente Oracle  
 
+![Image of Yaktocat](https://raw.githubusercontent.com/jomaarango/Taller3G1/taller-3-borrador/accesoBD.PNG) 
 
 
 
