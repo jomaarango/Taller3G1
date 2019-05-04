@@ -35,43 +35,27 @@ Se muestra la evidencia de la conexión realizada:
 **Diseñe 3 roles con acceso a esta BD** 
 
 **ROL RRHH**  
-Este rol permite realizar las consultas sobre la base de datos, se utilizará para MOnitoreo y consulta, no tiene acceso a la tabla de salarios JOBS y tiene acceso completo a EMPLOYEES.
+Este rol permite realizar las consultas sobre la base de datos, se utilizará para Monitoreo y consulta solo ejecutara select sobre todas las tablas excepto la tabla JOBS que contiene salarios y tiene acceso completo a EMPLOYEES para realizar update e insert.
+
+![Image of Yaktocat] (https://github.com/jomaarango/Taller3G1/blob/taller-3-borrador/CREACION  DE USUARIO Y ASIGNACION DE ROL RRHHH.PNG)  
+![Image of Yaktocat] (https://github.com/jomaarango/Taller3G1/blob/taller-3-borrador/rol creado de recursos humanos.PNG)  
+
+![Image of Yaktocat] (https://github.com/jomaarango/Taller3G1/blob/taller-3-borrador/configuriacion de permisos del rol RRHH.PNG)  
 
 **ROL FINANCIERO**  
 Este rol tiene acceso a las tablas JOBS.escritura y EMPLOYEES.lectura.  
 
 **ROL AUDITOR**  
-Este rol tiene la función de consulta general sobre las bases de datos.   
+Este rol tiene la función de consulta general sobre las bases de datos. 
 
-![Image of Yaktocat](https://raw.githubusercontent.com/jomaarango/Taller3G1/taller-3-borrador/Rolauditor.JPG)    
-  
-* Comprobando el rol asignado al usuario Auditor, configuramos y realizamos el login a la base de datos 
-  
-    
-      
-        
-          
-![Image of Yaktocat](https://raw.githubusercontent.com/jomaarango/Taller3G1/taller-3-borrador/sesionauditor.JPG)  
-  
-    
-      
-        
-          
-  
-    
-      
-        
-  
-* Luego realizamos una consulta SELECT de forma exitosa  
+![Image of Yaktocat](https://raw.githubusercontent.com/jomaarango/Taller3G1/taller-3-borrador/Rolauditor.JPG)  
 
-![Image of Yaktocat](https://raw.githubusercontent.com/jomaarango/Taller3G1/taller-3-borrador/selectauditor.JPG)  
-    
-      
-        
-          
-  * Al tratar de realizar un INSERT se genera un error por el nivel de privilegios  
-  
-![Image of Yaktocat](https://raw.githubusercontent.com/jomaarango/Taller3G1/taller-3-borrador/insertauditor.JPG)  
+* Comprobando el rol asignado al usuario Auditor, realizamos el login
+![Image of Yaktocat](https://raw.githubusercontent.com/jomaarango/Taller3G1/taller-3-borrador/loginauditor.JPG)
+  Luego realizamos una consulta SELECT 
+![Image of Yaktocat](https://raw.githubusercontent.com/jomaarango/Taller3G1/taller-3-borrador/selectauditor.JPG)
+  Al tratar de realizar un INSERT se genera un error por el nivel de privilegios
+![Image of Yaktocat](https://raw.githubusercontent.com/jomaarango/Taller3G1/taller-3-borrador/insertauditor.JPG)
 
 **Cree los roles** 
 
