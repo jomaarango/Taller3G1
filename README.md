@@ -34,14 +34,19 @@ Se muestra la evidencia de la conexión realizada:
 ![Image of Yaktocat](https://raw.githubusercontent.com/jomaarango/Taller3G1/taller-3-borrador/Conexion.JPG) 
 **Diseñe 3 roles con acceso a esta BD** 
 
-**ROL RRHH**
+**ROL RRHH**  
 Este rol permite realizar las consultas sobre la base de datos, se utilizará para MOnitoreo y consulta, no tiene acceso a la tabla de salarios JOBS y tiene acceso completo a EMPLOYEES.
 
 **ROL FINANCIERO**  
 Este rol tiene acceso a las tablas JOBS.escritura y EMPLOYEES.lectura.  
 
-**ROL AUDITOR**
-Este rol tiene la función de consulta genral sobre las bases de datos.
+**ROL AUDITOR**  
+Este rol tiene la función de consulta general sobre las bases de datos. 
+
+![Image of Yaktocat](https://raw.githubusercontent.com/jomaarango/Taller3G1/taller-3-borrador/Rolauditor.JPG)  
+
+* Comprobando el rol asignado al usuario Auditor:  
+
 
 **Cree los roles** 
 
