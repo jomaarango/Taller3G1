@@ -87,19 +87,17 @@ Evidencia de aplicacion del ROL
 **ROL AUDITOR**  
 Este rol tiene la función de consulta general sobre las bases de datos.   
 
+* Creación del rol Audito denominado Audito_rol.  
+
 ![Image of Yaktocat](https://raw.githubusercontent.com/jomaarango/Taller3G1/taller-3-borrador/Rolauditor.JPG)  
+* Comprobando el rol asignado al usuario Auditor, realizamos el login.  
 
- Comprobando el rol asignado al usuario Auditor, realizamos el login    
-![Image of Yaktocat](https://raw.githubusercontent.com/jomaarango/Taller3G1/taller-3-borrador/loginauditor.JPG)
+![Image of Yaktocat](https://raw.githubusercontent.com/jomaarango/Taller3G1/taller-3-borrador/sesionauditor.JPG)  
 
-  Luego realizamos una consulta SELECT   
+* Luego realizamos una consulta SELECT.  
+
 ![Image of Yaktocat](https://raw.githubusercontent.com/jomaarango/Taller3G1/taller-3-borrador/selectauditor.JPG)  
 
-  Al tratar de realizar un INSERT se genera un error por el nivel de privilegios   
-![Image of Yaktocat](https://raw.githubusercontent.com/jomaarango/Taller3G1/taller-3-borrador/insertauditor.JPG)
+* Al tratar de realizar un INSERT se genera un error por el nivel de privilegios.  
 
-**Cree los roles** 
-
-**Cree usuarios para asignarle los roles creados** 
-
-**Verifique que los usuarios solo tienen los privilegios  Autorizados**
+![Image of Yaktocat](https://raw.githubusercontent.com/jomaarango/Taller3G1/taller-3-borrador/insertauditor.JPG)  
