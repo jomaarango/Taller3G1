@@ -48,9 +48,12 @@ Este rol permite realizar las consultas sobre la base de datos, se utilizará pa
 ![Image of Yaktocat](https://github.com/jomaarango/Taller3G1/blob/taller-3-borrador/CREACION%20DE%20USUARIO%20Y%20ASIGNACION%20DE%20ROL%20RRHHH.PNG)  
 
 
-**PERMISOS DE LECTURA**  
+**PERMISOS DE LECTURA**    
 ![Image of Yaktocat](https://github.com/jomaarango/Taller3G1/blob/taller-3-borrador/PERMISOS%20DEL%20JOMAARANGO.PNG)  
 
+**PERMISOS DENEGADOS DEL ROL RRHH**
+
+![Image of Yaktocat](https://github.com/jomaarango/Taller3G1/blob/taller-3-borrador/Evidencia%20que%20no%20puede%20ver%20datos%20de%20la%20tabla%20JOBS.PNG)  
 
 **ROL FINANCIERO**  
 Este rol tiene acceso a las tablas JOBS.escritura y EMPLOYEES.lectura.
@@ -82,21 +85,18 @@ Evidencia de aplicacion del ROL
 
 
 **ROL AUDITOR**  
-Este rol tiene la función de consulta general sobre las bases de datos. 
+Este rol tiene la función de consulta general sobre las bases de datos.   
 
 ![Image of Yaktocat](https://raw.githubusercontent.com/jomaarango/Taller3G1/taller-3-borrador/Rolauditor.JPG)  
-  
-  
-* Comprobando el rol asignado al usuario Auditor, realizamos el login  
-![Image of Yaktocat](https://raw.githubusercontent.com/jomaarango/Taller3G1/taller-3-borrador/loginauditor.JPG)  
-  
-    
- * Luego realizamos una consulta SELECT 
+
+ Comprobando el rol asignado al usuario Auditor, realizamos el login    
+![Image of Yaktocat](https://raw.githubusercontent.com/jomaarango/Taller3G1/taller-3-borrador/loginauditor.JPG)
+
+  Luego realizamos una consulta SELECT   
 ![Image of Yaktocat](https://raw.githubusercontent.com/jomaarango/Taller3G1/taller-3-borrador/selectauditor.JPG)  
-  
-    
- * Al tratar de realizar un INSERT se genera un error por el nivel de privilegios  
-![Image of Yaktocat](https://raw.githubusercontent.com/jomaarango/Taller3G1/taller-3-borrador/insertauditor.JPG)  
+
+  Al tratar de realizar un INSERT se genera un error por el nivel de privilegios   
+![Image of Yaktocat](https://raw.githubusercontent.com/jomaarango/Taller3G1/taller-3-borrador/insertauditor.JPG)
 
 **Cree los roles** 
 
