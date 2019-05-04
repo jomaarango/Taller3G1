@@ -53,7 +53,33 @@ Este rol permite realizar las consultas sobre la base de datos, se utilizará pa
 
 
 **ROL FINANCIERO**  
-Este rol tiene acceso a las tablas JOBS.escritura y EMPLOYEES.lectura.  
+Este rol tiene acceso a las tablas JOBS.escritura y EMPLOYEES.lectura.
+
+configuracion del rol  
+
+![Image of Yaktocat](https://raw.githubusercontent.com/jomaarango/Taller3G1/taller-3-borrador/Financiero1.PNG)  
+
+permisos login  
+
+
+![Image of Yaktocat](https://raw.githubusercontent.com/jomaarango/Taller3G1/taller-3-borrador/Financiero2.PNG)  
+conexion
+
+![Image of Yaktocat](https://raw.githubusercontent.com/jomaarango/Taller3G1/taller-3-borrador/Financiero3.PNG)  
+
+Consulta select 
+
+
+![Image of Yaktocat](https://raw.githubusercontent.com/jomaarango/Taller3G1/taller-3-borrador/Financiero4.PNG)  
+
+Consulta select 
+
+![Image of Yaktocat](https://raw.githubusercontent.com/jomaarango/Taller3G1/taller-3-borrador/Financiero5.PNG)  
+
+Evidencia de aplicacion del ROL 
+
+![Image of Yaktocat](https://raw.githubusercontent.com/jomaarango/Taller3G1/taller-3-borrador/Financiero6.PNG)   
+
 
 **ROL AUDITOR**  
 Este rol tiene la función de consulta general sobre las bases de datos. 
