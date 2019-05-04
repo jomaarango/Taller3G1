@@ -85,12 +85,17 @@ Evidencia de aplicacion del ROL
 Este rol tiene la función de consulta general sobre las bases de datos. 
 
 ![Image of Yaktocat](https://raw.githubusercontent.com/jomaarango/Taller3G1/taller-3-borrador/Rolauditor.JPG)  
-
+  
+  
 * Comprobando el rol asignado al usuario Auditor, realizamos el login  
 ![Image of Yaktocat](https://raw.githubusercontent.com/jomaarango/Taller3G1/taller-3-borrador/loginauditor.JPG)  
-  Luego realizamos una consulta SELECT 
+  
+    
+ * Luego realizamos una consulta SELECT 
 ![Image of Yaktocat](https://raw.githubusercontent.com/jomaarango/Taller3G1/taller-3-borrador/selectauditor.JPG)  
-  Al tratar de realizar un INSERT se genera un error por el nivel de privilegios  
+  
+    
+ * Al tratar de realizar un INSERT se genera un error por el nivel de privilegios  
 ![Image of Yaktocat](https://raw.githubusercontent.com/jomaarango/Taller3G1/taller-3-borrador/insertauditor.JPG)  
 
 **Cree los roles** 
