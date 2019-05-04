@@ -1,13 +1,31 @@
 # Taller3G1
 
-# Instale el cliente de oracle para linux
+Taller 2 Seguridad Base de Datos
 
-# Conéctese con el usuario hr y contraseña Pass704. A la base de datos Oracle identificada
+Arango Garcia Jorge Mario
+Chacon Prieto Jose Alberto
+Gamez Ramirez Juan Carlos
+Sierra Nieto Joaquin
 
-# Diseñe 3 roles con acceso a esta BD 
+Docente
+César Iván Rodríguez Sánchez
 
-# Cree los roles 
+UNIVERSIDAD PILOTO DE COLOMBIA
+FACULTAD DE INGENIERÍA DE SISTEMAS
+POSTGRADOS
+BOGOTÁ
+MAYO 03 DE 2019
 
-# Cree usuarios para asignarle los roles creados 
 
-# Verifique que los usuarios solo tienen los privilegios  Autorizados
+
+**Instale el cliente de oracle para linux
+
+**Conéctese con el usuario hr y contraseña Pass704. A la base de datos Oracle identificada
+
+**Diseñe 3 roles con acceso a esta BD 
+
+**Cree los roles 
+
+**Cree usuarios para asignarle los roles creados 
+
+**Verifique que los usuarios solo tienen los privilegios  Autorizados
