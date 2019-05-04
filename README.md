@@ -41,16 +41,37 @@ Este rol permite realizar las consultas sobre la base de datos, se utilizará pa
 Este rol tiene acceso a las tablas JOBS.escritura y EMPLOYEES.lectura.  
 
 **ROL AUDITOR**  
-Este rol tiene la función de consulta general sobre las bases de datos. 
+Este rol tiene la función de consulta general sobre las bases de datos.   
 
-![Image of Yaktocat](https://raw.githubusercontent.com/jomaarango/Taller3G1/taller-3-borrador/Rolauditor.JPG)  
+![Image of Yaktocat](https://raw.githubusercontent.com/jomaarango/Taller3G1/taller-3-borrador/Rolauditor.JPG)    
+  
+* Comprobando el rol asignado al usuario Auditor, configuramos y realizamos el login a la base de datos 
+  
+    
+      
+        
+          
+![Image of Yaktocat](https://raw.githubusercontent.com/jomaarango/Taller3G1/taller-3-borrador/sesionauditor.JPG)  
+  
+    
+      
+        
+          
+  
+    
+      
+        
+  
+* Luego realizamos una consulta SELECT de forma exitosa  
 
-* Comprobando el rol asignado al usuario Auditor, realizamos el login
-![Image of Yaktocat](https://raw.githubusercontent.com/jomaarango/Taller3G1/taller-3-borrador/loginauditor.JPG)
-  Luego realizamos una consulta SELECT 
-![Image of Yaktocat](https://raw.githubusercontent.com/jomaarango/Taller3G1/taller-3-borrador/selectauditor.JPG)
-  Al tratar de realizar un INSERT se genera un error por el nivel de privilegios
-![Image of Yaktocat](https://raw.githubusercontent.com/jomaarango/Taller3G1/taller-3-borrador/insertauditor.JPG)
+![Image of Yaktocat](https://raw.githubusercontent.com/jomaarango/Taller3G1/taller-3-borrador/selectauditor.JPG)  
+    
+      
+        
+          
+  * Al tratar de realizar un INSERT se genera un error por el nivel de privilegios  
+  
+![Image of Yaktocat](https://raw.githubusercontent.com/jomaarango/Taller3G1/taller-3-borrador/insertauditor.JPG)  
 
 **Cree los roles** 
 
